@@ -1,3 +1,16 @@
+# Ignore build.properties to keep secrets out of version control
+src/main/resources/build.properties
+src/main/resources/build.properties
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
 HELP.md
 .gradle
 build/
@@ -16,15 +29,6 @@ build/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
 ### NetBeans ###
 /nbproject/private/
